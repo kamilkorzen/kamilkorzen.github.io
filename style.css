@@ -1,0 +1,21 @@
+body{
+  background-color: #faf9f7;
+}
+
+h1 {
+  font: 45px helvetica;
+  margin-top: 150px;
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 80px;
+  color: rgba(0, 0, 80, 0.90);
+}
+
+p {
+  font: 15px arial;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  color: rgba(0, 0, 80, 0.50);
+}
