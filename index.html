@@ -3,7 +3,12 @@
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Kamil Korzen Homepage
+  </title>
 </head>
 
 <style>
@@ -14,52 +19,86 @@
   text-decoration: none;
   border-radius: 50%;
   margin-top: 20px;
-  margin-left: 5%;
+  margin-left: 20px;
+  margin-right: 20px;
   color: rgba(0, 0, 0, 0.75);
 }
 
-body{
-  background-color: #faf9f7;
-}
-
 h1 {
-  font: 45px monaco;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 45px;
+  text-align: center;
   margin-top: 150px;
-  margin-bottom: 10px;
-  margin-right: 20%;
-  margin-left: 5%;
+  margin-bottom: 45px;
   color: rgba(0, 0, 80, 0.90);
 }
 
 h2 {
-  font: 15px monaco;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20%;
-  margin-left: 5%;
-  color: rgba(0, 0, 80, 0.50);
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.75);
 }
 
 p {
-  font: 15px monaco;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 15px;
+  font-weight: lighter;
+  text-align: justify;
   margin-top: 20px;
-  margin-bottom: 10px;
-  margin-right: 20%;
-  margin-left: 5%;
-  color: rgba(0, 0, 80, 0.50);
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.75);
 }
+
+div {
+  margin-left: 25%;
+  margin-right: 25%;
+  align-self: center;
+}
+
+body {
+  background-color: #faf9f7;
+}
+
+.footer {
+  font-family: 'Roboto Mono', monospace;
+  position: fixed;
+  font-size: 10px;
+  font-stretch: semi-condensed;
+  left: 0;
+  bottom: 0;
+  margin-left: 0%;
+  margin-right: 0%;
+  height: 20px;
+  line-height: 20px;
+  width: 100%;
+  background-color: rgba(0, 0, 80, 0.75);
+  color: white;
+  text-align: center;
+}
+
 </style>
 
 <body>
-    <h1>Hi, I'm Kamil!</h1>
-    <p align = "justify">Student of MSc in <b>Data Science</b> at University of Warsaw with 1 year of experience as Quantitative Analyst.
-      My current technology stack include <b>R</b>, <b>Python</b>, <b>SQL</b> and <b>C++</b>.
-      <br><br>I have developed a number of web apps using <b>R Shiny</b> and <b>Django</b>.
-      I am also capable of sourcing, wrangling and presenting the data.
-      Feel free to take a look at my <b>GitHub</b>, <b>LinkedIn</b> or just drop me an <b>e-mail</b>.</p>
-      <a href="http://linkedin.com/in/kamilkorzen/" class="fa fa-linkedin"></a>
+  <div>
+    <h1>hi, this is Kamil</h1>
+    <h2>currently enrolled to a MSc Data Science and working as Quantitative Analyst.</h2>
+    <p>more than happy to engage in a free or paid project in the area of Analytics
+      where i could make use of my Tech Stack, that currently includes using sk-learn
+      or Flask to deploy Python models, performing high-level EDA and visualization by
+      leveraging tidyverse R package or extracting data with SQL.</p>
+    <h2>for more details, visit my portfolio and (or) <b>reach me</b>, using the links below.</h2>
+    <div align = "center">
       <a href="https://github.com/kamilkorzen" class="fa fa-github"></a>
+      <a href="https://linkedin.com/in/kamilkorzen/" class="fa fa-linkedin"></a>
+      <a href="https://kamilkorzen.github.io/resume.pdf", class="fa fa-file"></a>
       <a href="mailto:kamill.korzen@gmail.com" class="fa fa-envelope"></a>
-</body>
+  </div>
+  </div>
 
+  <div class="footer">committed by Kamil.</div>
+</body>
 </html>
